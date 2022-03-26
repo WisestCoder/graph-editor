@@ -1,0 +1,35 @@
+.graph-editor-pointer-wrapper {
+  background: #1a192b;
+  pointer-events: all;
+  position: absolute;
+  border: 1px solid #fff;
+  border-radius: 100%;
+
+  &.connectable {
+    cursor: crosshair;
+  }
+
+  &-top {
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+  }
+
+  &-bottom {
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+  }
+
+  &-left {
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-right {
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+}

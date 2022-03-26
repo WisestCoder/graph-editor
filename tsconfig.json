@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "target": "es6",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "noImplicitThis": true,
+    "importHelpers": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "strict": true,
+    "paths": {
+      "*": ["*"],
+      "@/*": ["./src/*"],
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "src/types"],
+}

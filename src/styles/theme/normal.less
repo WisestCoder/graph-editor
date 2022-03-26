@@ -1,0 +1,48 @@
+.graph-editor-marker-definitions-container.normal {
+  #graph-editor-marker-definitions__arrowclosed polyline {
+    stroke: #b1b1b7;
+    fill: #b1b1b7;
+  }
+  #graph-editor-marker-definitions__arrowclosed__selected polyline {
+    stroke: #1a192b;
+    fill: #1a192b;
+  }
+  #graph-editor-marker-definitions__arrow polyline {
+    stroke: #b1b1b7;
+  }
+  #graph-editor-marker-definitions__arrow__selected polyline {
+    stroke: #b1b1b7;
+  }
+}
+
+
+.graph-editor-node-wrapper.normal {
+  background: #fff;
+  border-radius: 3px;
+  font-size: 12px;
+  border: 1px solid #1a192b;
+  color: #222;
+  &.is-selected {
+    box-shadow: 0 0 0 0.5px #1a192b;
+  }
+}
+
+
+.graph-editor-edge-wrapper.normal {
+  .graph-editor-edge-wrapper-path {
+    stroke: #b1b1b7;
+    stroke-width: 1;
+  }
+  &.is-selected {
+    .graph-editor-edge-wrapper-path {
+      stroke: rgba(78, 88, 191, 1);
+      stroke-width: 6;
+    }
+  }
+}
+
+
+.graph-editor-pointer-wrapper.normal {
+  width: 8px;
+  height: 8px;
+}

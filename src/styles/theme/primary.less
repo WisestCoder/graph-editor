@@ -1,0 +1,57 @@
+.primary {
+  &.graph-editor-marker-definitions-container {
+    #graph-editor-marker-definitions__arrowclosed polyline {
+      stroke: rgb(106, 113, 197);
+      fill: rgb(106, 113, 197);
+    }
+    #graph-editor-marker-definitions__arrowclosed__selected polyline {
+      stroke: #ffd92c;
+      fill: #ffd92c;
+    }
+    #graph-editor-marker-definitions__arrow polyline {
+      stroke: rgb(106, 113, 197);
+    }
+    #graph-editor-marker-definitions__arrow__selected polyline {
+      stroke: #ffd92c;
+    }
+  }
+
+
+  &.graph-editor-node-wrapper {
+    background: rgba(110, 136, 255, 0.8);
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid #4e58bf;
+    color: #fff;
+    &:hover {
+      background-color: rgba(130, 153, 255, 0.8);
+    }
+    &.is-selected {
+      background-color: #ffd92c;
+      border-color: #e3c000;
+    }
+  }
+
+
+  &.graph-editor-edge-wrapper {
+    .graph-editor-edge-wrapper-path {
+      stroke: rgba(78, 88, 191, 0.8);
+      stroke-width: 4;
+    }
+    &.is-selected {
+      .graph-editor-edge-wrapper-path {
+        stroke: #ffd92c;
+      }
+    }
+  }
+
+
+  &.graph-editor-pointer-wrapper {
+    width: 24px;
+    height: 24px;
+    background-color: #96b38a;
+    &:hover {
+      border-width: 4px;
+    }
+  }
+}
