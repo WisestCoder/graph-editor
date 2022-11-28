@@ -1,6 +1,6 @@
 {
   "name": "@ols-scripts/graph-editor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "节点编辑器",
   "author": "mochen.du",
   "license": "ISC",
@@ -12,7 +12,8 @@
     "deploy": "ols deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "ols test",
-    "test:coverage": "ols test --coverage"
+    "test:coverage": "ols test --coverage",
+    "prepublishOnly": "yarn build"
   },
   "files": [
     "dist"

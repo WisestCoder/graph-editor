@@ -29,12 +29,19 @@ export * from './container/EdgeType'
 
 // hooks
 export * from './hooks/useGlobal'
+export { default as useGlobal } from './hooks/useGlobal'
 export * from './hooks/useDimension'
+export { default as useDimension } from './hooks/useDimension'
 export * from './hooks/useDelete'
+export { default as useDelete } from './hooks/useDelete'
 export * from './hooks/useZoom'
+export { default as useZoom } from './hooks/useZoom'
 export * from './hooks/useTheme'
+export { default as useTheme } from './hooks/useTheme'
 export * from './hooks/useNodeResizeObserver'
+export { default as useNodeResizeObserver } from './hooks/useNodeResizeObserver'
 export * from './hooks/usePosition'
+export { default as usePosition } from './hooks/usePosition'
 
 // utils
 export * from './utils/graph'
